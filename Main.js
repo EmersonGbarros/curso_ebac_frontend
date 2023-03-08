@@ -14,8 +14,8 @@ forms.addEventListener('submit',function(evento){
   if(validaçao){
     sucesso.innerHTML = "Tá tudo Funcionando Maluco";
     sucesso.style.display = 'block';
-    sucesso.style.co= "#AA0000";
   }else{
     sucesso.innerHTML = "Tem algo errado nessa Parada";
     sucesso.style.display = 'block';
+  }
 })
